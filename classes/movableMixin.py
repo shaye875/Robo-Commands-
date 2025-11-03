@@ -1,4 +1,4 @@
-from robot import *
+from classes.robot import *
 
 class MovableMixin(Robot):
     def MOVE(self,x,y):

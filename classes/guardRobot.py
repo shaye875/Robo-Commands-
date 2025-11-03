@@ -1,4 +1,4 @@
-from speakableMixin import *
+from classes.speakableMixin import *
 
 class GuardRobot(SpeakableMixin):
     def MOVE(self,x,y):

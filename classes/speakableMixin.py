@@ -1,4 +1,4 @@
-from robot import *
+from classes.robot import *
 
 class SpeakableMixin(Robot):
    def SAY(self,str):
