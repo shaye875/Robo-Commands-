@@ -4,7 +4,8 @@ dora = DeliveryRobot(3,4)
 gedon = GuardRobot(4,5)
 robots = [dora,gedon]
 comands = [".SAY",".MOVE",".WHERE"]
-while True:
+if __name__ == "__main__":
+ while True:
   print("commands SAY")
   dora.SAY("im dora")
   gedon.SAY("im gedon")
@@ -17,3 +18,5 @@ while True:
   exit = input("if you want to exit enter exit")
   if exit == "exit":
       break
+print(DeliveryRobot.__mro__)
+print(GuardRobot.__mro__)

@@ -10,3 +10,4 @@ class MovableMixin(Robot):
         print(f"im at {self.x,self.y}")
 
 
+
